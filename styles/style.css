@@ -10,9 +10,11 @@
 html,
 body {
   width: 100%;
+  height: 100%;
 }
 
 body {
+  width: 100%;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 150%;
@@ -20,8 +22,7 @@ body {
   overflow-x: none;
   overflow-y: auto;
   display: grid;
-  justify-content: center;
-  grid-template-rows: 80px 1fr 80px;
+  grid-template-rows: 60px 1fr 60px;
   grid-template-areas:
     "hd"
     "main"
@@ -52,7 +53,6 @@ h3 {
 
 header {
   grid-area: hd;
-  grid-row:1;
 }
 
 main {
@@ -61,10 +61,11 @@ main {
 
 footer {
   grid-area: ft;
-  grid-row:3;
 }
 
 header,
 footer {
-  background-color: #000;
+  background-color: #34495e;
+  /*#2c3e50;*/
+  color: #fff;
 }

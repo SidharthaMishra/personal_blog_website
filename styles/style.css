@@ -1,9 +1,26 @@
-*{
+@import url("../vendors/node_modules/normalize.css/normalize.css");
+
+* {
   box-sizing: border-box;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
-body{
-  width:100%;
-  height:auto;
+
+body {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+h3 {
+  font-size: 110%;
 }

@@ -17,3 +17,21 @@
 .tetriary-color{
   background-color:#3282b8;
 }
+
+/* FONTS DISPAY */
+.fonts{
+  margin:25px;
+}
+
+.fonts div{
+  display:inline-block;
+  margin:20px;
+}
+
+.fonts div:first-of-type{
+  font-family:'Raleway';
+}
+
+.fonts div:last-of-type{
+  font-family:'Lato';
+}

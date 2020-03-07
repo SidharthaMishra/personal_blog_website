@@ -119,6 +119,14 @@ footer {
   color: #fff;
 }
 
+.avatar{
+  width:125px;
+  height:125px;
+  background-color:dimgray;
+  border-radius:50%;
+  margin:25px;
+}
+
 /* NAV BAR */
 nav {
   width: 100%;

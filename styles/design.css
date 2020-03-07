@@ -1,0 +1,19 @@
+@import url("style.css");
+
+/* COLOR PALETTE DISPLAY */
+.color-palette div{
+  display:inline-block;
+  margin:10px;
+}
+
+.primary-color{
+  background-color:#1b262c;
+}
+
+.secondary-color{
+  background-color:#0f4c75;
+}
+
+.tetriary-color{
+  background-color:#3282b8;
+}

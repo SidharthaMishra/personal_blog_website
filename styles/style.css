@@ -90,7 +90,7 @@ p {
   margin: 15px auto 15px auto;
 }
 
-/* HEADER AND FOOTER */
+/* HEADER, MAIN, AND FOOTER */
 header {
   grid-area: hd;
   display: flex;

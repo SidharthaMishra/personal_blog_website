@@ -1,7 +1,7 @@
 /*  IMPORTS */
 @import url("../vendors/node_modules/normalize.css/normalize.css");
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
-
+/*--------------------------------------------------*/
 /* GENERAL SETUP */
 * {
   box-sizing: border-box;
@@ -31,6 +31,7 @@ body {
     "ft";
 }
 
+/*--------------------------------------------------*/
 /* STYLING FOR COMMON ELEMENTS */
 h1,
 h2,
@@ -127,6 +128,37 @@ footer {
   margin:25px;
 }
 
+/* Buttons */
+button{
+  width:150px;
+  height:50px;
+  color:#1b262c;
+  border-radius:3px;
+  border:2px solid #0f4c75;
+}
+.primary-btn{
+  background-color:#0f4c75;
+  color:#fff;
+}
+.outlined-btn{
+    background-color:#fff;
+}
+
+.primary-btn,
+.outlined-btn{
+  transition:background-color 0.6s, color 0.6s;
+}
+
+.primary-btn:active,
+.primary-btn:hover,
+.outlined-btn:active,
+.outlined-btn:hover{
+  background-color: #3282b8;
+  cursor:pointer;
+  color:#fff;
+}
+
+/*--------------------------------------------------*/
 /* NAV BAR */
 nav {
   width: 100%;
